@@ -13,6 +13,7 @@ APP_NAME = "対話型商品レコメンド生成AIアプリ"
 USER_ICON_FILE_PATH = "./images/user_icon.jpg"
 AI_ICON_FILE_PATH = "./images/ai_icon.jpg"
 ERROR_ICON = ":material/error:"
+WARNING_ICON = ":material/warning:"
 CHAT_INPUT_HELPER_TEXT = "こちらからお探しの商品の特徴や名前を入力してください。"
 SPINNER_TEXT = "レコメンドする商品の検討中..."
 
@@ -46,3 +47,13 @@ INITIALIZE_ERROR_MESSAGE = "初期化処理に失敗しました。"
 CONVERSATION_LOG_ERROR_MESSAGE = "過去の会話履歴の表示に失敗しました。"
 RECOMMEND_ERROR_MESSAGE = "商品レコメンドに失敗しました。"
 LLM_RESPONSE_DISP_ERROR_MESSAGE = "商品情報の表示に失敗しました。"
+
+# ==========================================
+# 在庫情報関連
+# ==========================================
+STOCK_STATUS_IN_STOCK = "在庫あり"
+STOCK_STATUS_LOW = "残りわずか"
+STOCK_STATUS_OUT_OF_STOCK = "なし"
+
+STOCK_LOW_WARNING_MESSAGE = f"{WARNING_ICON} ご好評につき、在庫数が残りわずかです。購入をご希望の場合、お早目のご注文をおすすめいたします。"
+STOCK_OUT_OF_STOCK_ERROR_MESSAGE = f"{ERROR_ICON} 申し訳ございませんが、本商品は在庫切れとなっております。入荷までもうしばらくお待ちください。"

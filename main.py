@@ -31,7 +31,7 @@ def ensure_sqlite335_or_newer():
             "requirements.txt に pysqlite3-binary を追加してください。"
         ) from e
 
-ensure_sqlite335_or_newer()
+#ensure_sqlite335_or_newer()
 
 ############################################################
 # ライブラリの読み込み

@@ -33,6 +33,10 @@ def ensure_sqlite335_or_newer():
 
 ensure_sqlite335_or_newer()
 
+import sys, os, traceback, logging
+logging.basicConfig(level=logging.INFO)
+print("BOOT: reached top of script", flush=True)
+
 ############################################################
 # ライブラリの読み込み
 ############################################################
